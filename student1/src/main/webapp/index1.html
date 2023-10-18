@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+        color: brown;
+        font-size: 40px;
+    }
+    form{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    label{
+        color: midnightblue;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    input{
+        height: 20px;
+        width: 250px;
+        font-size:20px;
+        padding: 10px;
+    }
+    .a{
+        height: 50px;
+        width: 250px; 
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        background-color: yellow;
+        color: red;
+    }
+    .b{
+        box-shadow: 10px 10px 10px grey;
+        height: 450px;
+        width: 500px;
+        margin-left: 450px;
+        margin-top: 100px;
+        background-color: antiquewhite;
+    }
+    .a:hover{
+        background-color: orange;
+        color: greenyellow;
+    }
+</style>
+</head>
+<body>
+<div class ="b">
+<br><h1>INSERT OPERATION</h1>
+<form action="insert" ,method="get">
+<label>ID:-</label>&nbsp;&nbsp;&nbsp;<input type="text" name="sId" placeholder="ENTER ID"><br><br>
+<label>NAME:-</label>&nbsp;&nbsp;&nbsp;<input type="text" name="sName" placeholder="ENTER NAME"><br><br>
+<label>MARKS:-</label>&nbsp;&nbsp;&nbsp;<input type="text" name="sMarks" placeholder="ENTER MARKS"><br><br>
+<br><input class="a" type="submit" value="INSERT">
+</form>
+</div>
+</body>
+</html>
